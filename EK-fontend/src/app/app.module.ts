@@ -7,18 +7,12 @@ import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
-import { ComponentComponent } from './component/component.component';
-import { HeaderComponent } from './component/header/header.component';
-import { BodyComponent } from './component/body/body.component';
-import { FooterComponent } from './component/footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentComponent,
-    HeaderComponent,
-    BodyComponent,
-    FooterComponent
+
   ],
   imports: [
     BrowserModule,
@@ -30,4 +24,3 @@ import { FooterComponent } from './component/footer/footer.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-    
